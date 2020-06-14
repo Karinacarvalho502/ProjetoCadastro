@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  background-color: #008aff;
+  padding: 5px 25px;
+  margin: 0;
+  width: auto;
+  color: #444;
+  background-position: bottom;
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+
+
+main#conteudo{
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 210px;
+
+}
+
+
+
+section#principal{
+  background-color: #faf6ec;
+  color: white;
+  width: 70%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 2%;
+  display: block;
+  float: left;
+  box-shadow: 3px 3px 1px;
+}
+
+section#principalultimo{
+  background-color: #faf6ec;
+  color: white;
+  width: 70%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 250px;
+  padding: 2%;
+  display: block;
+  float: left;
+  box-shadow: 3px 3px 1px;
+}
+
+section#principal h2{
+  text-align: center;
+  font-family: arial;
+  font-size: 30px;
+  color: #818181;
+
+}
+
+section#principal p{
+  margin: 50px;
+  text-align: justify;
+  font-family: arial;
+  font-size: 13px;
+  color: #777777;
+}
+
+
+section#principalultimo h2{
+  margin: 30 50px -40px 50px;
+  text-align: center;
+  font-family: arial;
+  font-size: 30px;
+  color: #818181;
+
+}
+
+section#principalultimo p{
+  margin: 50px;
+  text-align: justify;
+  font-family: arial;
+  font-size: 13px;
+  color: #777777;
+}
+
+
+section#principalultimo img {
+  float:left;
+  margin:30 2px 1px 50px;
+}
+
+aside#secundario{
+  background: rgba(255, 255, 255, 0.4);
+  color: white;
+  width: 20%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 2%;
+  display: block;
+  float: left;
+  box-shadow: rgba(255, 255, 255, 0.11);
+}
+
+font-size: 16px;
+
+max-width: 500px;
+margin-top: 100px;
+margin-bottom: 350px;
+padding:  10px 10px 10px;
+display: block;
+float: right;
+width: 70%;
+
+
+aside#secundario h2{
+  text-align: center;
+  font-family: arial;
+  font-size: 25px;
+  color: #117dd9
+
+}
+
+
+aside#secundario p{
+  text-align: center;
+  font-family: arial;
+  font-size: 11px;
+  color: #656565;
+}
+
+
+
+
+tag{
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 5%;
+  padding-left: 10cm;
+}
+
+
+/*NAV E SUBMENU*/
+
+
+nav{
+  background-color: #419be8;
+  width: 100%;
+  float: right;
+
+
+}
+
+
+nav li{
+  float: left;
+  border-right: 1px solid #c0c0c0;
+  list-style-type: none;
+ 
+
+}
+
+
+nav li a
+{
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  color:#ffffff;
+  font-family: arial;
+  font-size: 12px;
+}
+
+
+nav li ul{
+  position:absolute;
+  display: none;
+ 
+
+}
+
+
+
+nav li a:hover{
+  background: #66ace6;
+  color:#ffffff;
+  text-shadow:0px 0px 5px #fff;
+
+}
+
+
+
+.submenu{
+  margin-left:-41px;
+  list-style:none;
+  display:none;
+  width:106px;
+  position:absolute;
+
+}
+
+.nav li:hover .submenu{
+  display:block;
+}
+
+.submenu li a:link,
+.submenu li a:visited{
+  display: block;
+  padding: 5px;
+  border-left: 10px #66ace6 solid;
+  background: #82bcec;
+  text-decoration: none;
+  width: 160px;
+  color: #ffffff;
+
+}
+
+.submenu li:hover a,
+.submenu li a:active,
+.submenu li a:hover{
+  display: block;
+  padding: 5px;
+  border-left: 10px #117dd9 solid;
+  background: #469ae0;
+  text-decoration: none;
+  width: 160px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               /* FORMULÁRIO */
+form
+{
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 100px;
+  margin-bottom: 350px;
+  padding:  10px 10px 10px;
+  display: block;
+  float: right;
+  width: 70%;
+  max-width: 600px;
+  
+  
+
+}
+
+
+
+
+
+           /*TÍTULO DO FORMULÁRIO */
+h5{
+  text-align: center;
+  color:aliceblue;
+  font-family: ARIAL;
+  font-size: 29px;
+  margin-bottom: -14px;
+  margin-top: -70PX;
+
+}
+
+
+
+
+        /* TAMANHO DA BARRA 
+           DE PREENCHIMENTO 
+           DO FORMULÁRIO     */
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+
+        /* BOTÃO ENVIAR */
+
+.enviar input {
+  background-color: rgba(62, 167, 255, 0.5);
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 0px solid;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+.enviar input:hover
+{
+  background: #0097ff;
+}
+
+
+
+
+         /* TAMANHO DA BARRA DE 
+            PREENCHIMENTO PARA 
+            ESCREVER A MSG      */
+
+textarea {
+
+  width: 100%;
+  height: 120px;
+  line-height: 20px;
+}
+
+
+         
